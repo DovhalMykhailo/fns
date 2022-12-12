@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype</title>
+    <link rel="stylesheet" href="">
+    <link rel="shortcut icon" href="/images/logo.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap" rel="stylesheet">
+<style>
+    body {
+    margin: 0;
+    margin-top: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.sitename {
+  float: left;
+  margin-right: 30px;
+  margin-top: 8px;
+}
+.menuheader  {
+  border: solid 1px rgb(189, 189, 189);
+  width: 99.9%;
+  height: 55px;
+  background-color: rgb(233, 233, 233);
+  float: left;
+}
+.imgheader {
+  float: left;
+  width: 3.2%;
+  height: 87%;
+  border-radius: 25%;
+  padding-top: 3px;
+  padding-bottom: 1px;
+  margin-left: 7px;
+  margin-right: 15px;
+}
+.imgheader:hover {
+  cursor:grab;
+}
+.nameheader {
+  float: right;
+  padding-right: 10px ;
+  margin-top: 8px;
+}
+.myphotoheader {
+  float: right;
+  width: 3.2%;
+  height: 87%;
+  border-radius: 45%;
+  padding-top: 3px;
+  padding-bottom: 1px;
+  margin-left: 7px;
+  margin-right: 15px;
+}
+
+.listworks {
+  background-color: rgb(233, 233, 233);
+  width: 17%;
+  margin-right: 0;
+  float: left;
+}
+.myworksbutton {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'IBM Plex Mono', monospace ;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+  margin-bottom: 5px;
+  }
+  
+.myworksbutton:disabled {
+  pointer-events: none;
+}
+.myworksbutton:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}  
+.myworksbutton:active {
+  box-shadow: none;
+  transform: translateY(0); 
+}
+#content-topic-0 {
+  margin-top: 0px;
+  margin-left: 0%;
+  height: 1360px;
+  width: 83%;
+  background-color: rgb(133, 133, 133);
+  float: left;
+  text-align: center;
+}
+marquee {
+  margin: 0%;
+  padding: 0;
+}
+#content-topic-1 {
+  margin-top: 0px;
+  margin-left: 0%;
+  height: 1400px;
+  width: 83%;
+  background-color: rgb(133, 133, 133);
+  float: left;
+  text-align: center;
+}
+.hr-2-topic1 { 
+  border-left: 600px solid rgb(0, 255, 0);
+  height: 3px;
+  border-right:600px solid red ;          
+}
+.hr-1-topic1 {
+border-left: 760px solid #00ff;
+height: 3px;
+border-right: 760px solid rgb(50, 50, 00);
+}
+
+.content-topic-2-gr1 {
+  padding: 190px;
+  margin-left: 190px;
+  background: linear-gradient(45deg, yellow , blue);
+}
+.content-topic-2-gr2 {
+  padding: 190px;
+  margin-left: 190px;
+  background: linear-gradient(45deg, red,blue,pink);
+}
+.active-page {
+  background-color:#00ffdd;
+  color: red ;
+}
+#content-topic-9 {
+    padding-top: 10%;
+    font-size: xx-large;
+    margin-left: 21%;
+    width: 75% ;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+    <header  class="menuheader">
+        <img class="imgheader" src="/images/logo.png" alt="">
+        <a href="/pages/mainpages.html"><h1 class="sitename">Final Site</h1></a>
+        <a href="/index.html"><h1 class="nameheader">Dovhal Mykhailo</h1></a>
+        <a href="/index.html"><img class="myphotoheader" src="/images/firemoskow.jpg" alt=""></a>
+    </header>
+    <div class="listworks">
+        <a href="/oldFinalWork/index.html">
+        <button style="color: white ;background: linear-gradient(45deg,rgb(102, 255, 0), blue);" class="myworksbutton" role="button">My Old Web Site</button>
+        </a>
+    <a href="/index.html">
+    <button class="myworksbutton" role="button">main page</button>
+    </a>
+    <a href="/pages/topic1.html">
+    <button class="myworksbutton" role="button">Topic 1</button>
+    </a>
+    <a href="/pages/topic2.html">
+    <button class="myworksbutton" role="button">Topic 2</button>
+    </a>
+    <a href="/pages/topic3.html">
+    <button class="myworksbutton" role="button">Topic 3</button>
+    </a>
+    <a href="/pages/topic4.html">
+    <button class="myworksbutton" role="button">Topic 4</button>
+    </a>
+    <a href="/pages/topic5.html">
+    <button class="myworksbutton" role="button">Topic 5</button>
+    </a>
+    <a href="/pages/topic6.html">
+    <button class="myworksbutton" role="button">Topic 6</button>
+    </a>
+    <a href="/pages/topic7.html">
+    <button class="myworksbutton" role="button">Topic 7</button>
+    </a>
+    <a href="/pages/topic8.html">
+    <button class="myworksbutton" role="button">Topic 8</button>
+    </a>
+    <a href="/pages/topic9.html">
+    <button class="myworksbutton active-page" role="button">Topic 9</button>
+    </a>
+    <a href="/pages/topic10.html">
+    <button class="myworksbutton" role="button">Topic 10</button>
+    </a>
+    <a href="/pages/topic11.html">
+    <button class="myworksbutton" role="button">Topic 11</button>
+    </a>
+    <a href="/pages/topic12.html">
+    <button class="myworksbutton" role="button">Topic 12</button>
+    </a>
+    <a href="/pages/topic13.html">
+    <button class="myworksbutton" role="button">Topic 13</button>
+    </a>
+    <a href="/pages/topic14.html">
+    <button class="myworksbutton" role="button">Topic 14</button>
+    </a>
+    <a href="/pages/topic15.html">
+    <button class="myworksbutton" role="button">Topic 15</button>
+    </a>
+    </div> <!--Finish vlock my works-->
+    <div id="content-topic-9">
+        Вам не здається ви вже це бачили це прототип сайту який був: перепланований, переосмисленний  та перекодований.
+    </div>
+</html>
