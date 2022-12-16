@@ -26,6 +26,8 @@ a {
   height: 55px;
   background:linear-gradient(45deg,blue, red);
   float: left;
+  margin: 0;
+  padding: 0;
 }
 .imgheader {
   float: left;
@@ -120,7 +122,88 @@ font-family: 'Ubuntu Mono', monospace;
 #content-topic-1 {
   margin-top: 0px;
   margin-left: 0%;
-  height: 1400px;
+  height: 1105px;
+  overflow-y: auto;
+  width: 83%;
+  background-color: rgb(133, 133, 133);
+  float: left;
+}
+#content-topic-2 {
+  margin-top: 0px;
+  margin-left: 0%;
+  height: 1105px;
+  overflow-y: auto;
+  width: 83%;
+  background-color: rgb(133, 133, 133);
+  float: left;
+}
+#content-topic-3 {
+  margin-top: 0px;
+  margin-left: 0%;
+  height: 1105px;
+  overflow-y: auto;
+  width: 83%;
+  background-color: rgb(133, 133, 133);
+  float: left;
+}
+#content-topic-4 {
+  margin-top: 0px;
+  margin-left: 0%;
+  height: 1105px;
+  overflow-y: auto;
+  width: 83%;
+  background-color: rgb(133, 133, 133);
+  float: left;
+}
+#content-topic-5 {
+  margin-top: 0px;
+  margin-left: 0%;
+  height: 1105px;
+  overflow-y: auto;
+  width: 83%;
+  background-color: rgb(133, 133, 133);
+  float: left;
+}
+#content-topic-6 {
+  margin-top: 0px;
+  margin-left: 0%;
+  height: 1105px;
+  overflow-y: auto;
+  width: 83%;
+  background-color: rgb(133, 133, 133);
+  float: left;
+}
+#content-topic-7 {
+  margin-top: 0px;
+  margin-left: 0%;
+  height: 1105px;
+  overflow-y: auto;
+  width: 83%;
+  background-color: rgb(133, 133, 133);
+  float: left;
+}
+#content-topic-8 {
+  margin-top: 0px;
+  margin-left: 0%;
+  height: 1105px;
+  overflow-y: auto;
+  width: 83%;
+  background-color: rgb(133, 133, 133);
+  float: left;
+}
+#content-topic-9 {
+  margin-top: 0px;
+  margin-left: 0%;
+  height: 1105px;
+  overflow-y: auto;
+  width: 83%;
+  background-color: rgb(133, 133, 133);
+  float: left;
+}
+#content-topic-10 {
+  margin-top: 0px;
+  margin-left: 0%;
+  height: 1105px;
   overflow-y: auto;
   width: 83%;
   background-color: rgb(133, 133, 133);
@@ -152,7 +235,7 @@ font-family: 'Ubuntu Mono', monospace;
   background: crimson;
   box-shadow: 0 -150px 70px -120px teal inset,
               0 -220px 70px -120px yellowgreen inset,
-              0 -280px 70px -120px gold inset;
+                                           0 -280px 70px -120px gold inset;
   animation: background 4s infinite alternate;
 }
 .myOldWebSite:hover{
