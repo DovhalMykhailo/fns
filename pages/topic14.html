@@ -9,16 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap" rel="stylesheet">
+
 <title>Topic14</title>
-    <style>
-        body {
-            background-color: black;
-            color: orangered;
-            text-align: center;
-            padding-top: 20%;
-            font-size: 45px;
-        }
-    </style>
 </head>
 <body>
     <header class="menuheader">
@@ -65,7 +57,7 @@
       <button class="myworksbutton" role="button">Topic 10</button>
       </a>
       <a href="topic11.html">
-      <button class="myworksbutton active-page" role="button">Topic 11</button>
+      <button class="myworksbutton" role="button">Topic 11</button>
       </a>
       <a href="topic12.html">
       <button class="myworksbutton" role="button">Topic 12</button>
@@ -74,30 +66,12 @@
       <button class="myworksbutton" role="button">Topic 13</button>
       </a>
       <a href="topic14.html">
-      <button class="myworksbutton" role="button">Topic 14</button>
+      <button class="myworksbutton active-page" role="button">Topic 14</button>
       </a>
       
       </div> <!--Finish vlock my works-->
-    <script>
-        
-        for(let i=0; i<=100;)
-        document.write(Math.round((Math.random()*100)));
-        
-        let numUser;
-        let numX=75;
-        do { numUser = prompt("Вгадайте число 0-100",0);
-        if (numUser===null){
-            alert("МИ чекаємо число");
-        }else if (+numUser<numX) {
-            alert("Ваше число менше")
-        }else if (+numUser>numX) {
-            alert("Ваше число більше");
-        } else {
-            alert("Вгадали   "+numX );}
-        } while (numUser != numX && numUser != null);
-        
-       
-</script>
+
+      <script src="topic14.js"></script>
 
 <footer class="information">
     <p id="informNumber1">Number of  phone
