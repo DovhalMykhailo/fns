@@ -1,5 +1,4 @@
-      for(let i=0; i<=100;)
-      document.write(Math.round((Math.random()*100)));
+document.write(Math.round((Math.random()*100)));
       let numUser;
       let numX=75;
       do { numUser = prompt("Вгадайте число 0-100",0);
